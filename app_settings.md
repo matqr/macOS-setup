@@ -4,7 +4,7 @@ App Settings
 ## System
 * Configure active corners
 
-## Mail.app
+## Thunderbird
 * Configure accounts
 
 ## iTerm
@@ -16,24 +16,7 @@ App Settings
 * Load Settings
 
 ## Other
-* Alfred-Powerpack
-* Carbon-Copy-Cloner
-* Bartender
-* VMware_Fusion_PRO
-* 1Password
-* Microsoft_Office_2016
-* PopClip
-* Path Finder
-* Fantastical
-* DaisyDisk
-* The Archive Browser
-* Dash
-* Mathworks_Matlab_R2017b
-* Transmit
-* WiFExp22
-* Kaleidoscope
-* Pixelmator
-* Lightroom
-* Adobe Photoshop CC 2017
-* PyCharm
-* Tuxera_NTFS
+* Alfred-Powerpack (Buy license)
+* Carbon-Copy-Cloner (Buy license)
+* 1Password (Replace by LastPass)
+* Microsoft_Office_2016 (Use educational license)
