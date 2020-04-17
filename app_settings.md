@@ -1,14 +1,12 @@
 App Settings
 ============
 
-## System
-* Configure active corners
 
 ## Thunderbird
 * Configure accounts
 
 ## iTerm
-* Import Settings
+* Import profile 
 * Import color scheme
 
 ## BetterTouchTool
@@ -17,6 +15,4 @@ App Settings
 
 ## Other
 * Alfred-Powerpack (Buy license)
-* Carbon-Copy-Cloner (Buy license)
-* 1Password (Replace by LastPass)
 * Microsoft_Office_2016 (Use educational license)

@@ -6,3 +6,8 @@ The repository contains the files I use to configure a new installation of OS X/
 # Installation
 
 Run `setup.sh` first
+
+# TODO
+Within `software` 
+- update BTT (buy license)
+
