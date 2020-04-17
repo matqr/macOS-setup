@@ -7,8 +7,3 @@
 #launchctl load ~/Library/LaunchAgents/syncthing.plist
 
 brew services start syncthing
-
-# ChunkWM + skhd
-
-brew services start chunkwm
-brew services start koekeishiya/formulae/skhd

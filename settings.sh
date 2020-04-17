@@ -5,7 +5,7 @@ set -e 			# Exit on error
 set -o pipefail # Exit on pipe error
 set -x 			# Enable verbosity
 
-hostName="Vindication"
+hostName="mbp"
 
 
 # Ask for the administrator password upfront
@@ -19,14 +19,13 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 ######## FIREWALL ###########
 
-defaults write /Library/Preferences/com.apple.alf globalstate -int 1
+#defaults write /Library/Preferences/com.apple.alf globalstate -int 1
 
 ###############################################################################
 # General UI/UX                                                               #
 ###############################################################################
 
 # Set computer name (as done via System Preferences → Sharing)
-#sudo scutil --set ComputerName "0x6D746873"
 sudo scutil --set HostName $hostName
 
 # Set the dark style
@@ -99,8 +98,8 @@ defaults write NSGlobalDomain com.apple.sound.beep.sound -string "/System/Librar
 # Screen                                                                      #
 ###############################################################################
 
-# Save screenshots to the desktop
-defaults write com.apple.screencapture location -string "${HOME}/Desktop"
+# Save screenshots to documents 
+defaults write com.apple.screencapture location -string "${HOME}/Documents"
 
 # Save screenshots in PNG format (other options: BMP, GIF, JPG, PDF, TIFF)
 defaults write com.apple.screencapture type -string "png"
@@ -116,11 +115,11 @@ defaults write com.apple.screencapture disable-shadow -bool true
 defaults write com.apple.finder NewWindowTarget -string "PfLo"
 defaults write com.apple.finder NewWindowTargetPath -string "file://${HOME}"
 
-# Show icons for hard drives, servers, and removable media on the desktop
-defaults write com.apple.finder ShowExternalHardDrivesOnDesktop -bool true
-defaults write com.apple.finder ShowHardDrivesOnDesktop -bool true
-defaults write com.apple.finder ShowMountedServersOnDesktop -bool true
-defaults write com.apple.finder ShowRemovableMediaOnDesktop -bool true
+# Don't show icons for hard drives, servers, and removable media on the desktop
+defaults write com.apple.finder ShowExternalHardDrivesOnDesktop -bool false 
+defaults write com.apple.finder ShowHardDrivesOnDesktop -bool false 
+defaults write com.apple.finder ShowMountedServersOnDesktop -bool false
+defaults write com.apple.finder ShowRemovableMediaOnDesktop -bool false 
 
 # Use list view in all Finder windows by default
 # Four-letter codes for the other view modes: `icnv`, `clmv`, `Flwv`

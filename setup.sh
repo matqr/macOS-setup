@@ -50,8 +50,8 @@ sudo xcodebuild -license
 gem install bundler
 bundle install
 
-# Configure ZSH
-./zsh_setup.sh
+# Configure Fish
+./fish_setup.sh
 
 # Load dotfiles
 ./dotfiles_setup.sh

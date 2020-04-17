@@ -4,7 +4,7 @@ set -e 			# Exit on error
 # set -o pipefail # Exit on pipe error
 set -x 			# Enable verbosity
 
-# Check if pyenv is in path and run init, else install pyenv
+ # Check if pyenv is in path and run init, else install pyenv
 if command -v pyenv > /dev/null; then
     eval "$(pyenv init -)";
 else
@@ -97,11 +97,5 @@ jupyter nbextension enable --py widgetsnbextension
 open "https://ndres.me/post/best-jupyter-notebook-extensions"
 
 # Create Python Environment
-# conda-env create environment.yml
+conda env create environment.yml
 
-# Install local user python packages
-mkdir -p $HOME/python-libs
-cd $HOME/python-libs
-git clone git@github.com:JJGO/Sylphrena.git
-git clone git@github.com:JJGO/kirin.git
-cd -

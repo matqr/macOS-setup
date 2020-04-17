@@ -1,4 +1,4 @@
-# Jose Javier Gonzalez Ortiz
+# Matias Quintana (adapted from JJGO's file https://github.com/JJGO/macOS-setup)
 # Brewfile
 
 tap 'homebrew/science'
@@ -47,9 +47,6 @@ brew "git-flow"                             # CLI  utils for git-flow
 brew "bash"                                 # Apple's is 3.2 current is 4
 brew "bash-completion"                      # Bash completion is lacking so this fixes it
 brew "fish"                                 # Friendly interactive sheell. Good defaults but not POSIX
-brew "zsh"                                  # Better shell, specially with zPrezto
-brew "zsh-completions"                      # General ZSH completions
-brew "mosh"                                 # Mobile Shell
 
 ### WINE
 cask "xquartz"                              # DEP: WineHQ dependency
@@ -139,11 +136,7 @@ brew "trash"                                # To use OS trash instead of rm fore
 brew "unison"                               # Sync both ways folders
 brew "write-good"                           # CLI tool for technical writing
 brew "youtube-dl"                           # Download YouTube (and others) from CLI
-
-### yabai
-tap 'koekeishiya/formulae'
-brew 'koekeishiya/formulae/yabai'
-brew 'koekeishiya/formulae/skhd'
+brew "bibtex2html"                          # Tool for website bibliography
 
 ### MISC
 brew "archey"
@@ -162,12 +155,17 @@ tap "caskroom/cask"
 tap "caskroom/versions"
 tap "caskroom/drivers"
 
-# cask "amethyst"                             # Tiling window manager
 cask "alfred"                               # Improved Spotlight
 cask "appcleaner"                           # Removes plist along with the app
 cask "authy"								# 2FA App
+cask "spectacle"                            # Window manager
+cask "blender"                              # Video editing open source software
+cask "franz"                                # Cross-platform messaging app
+cask "mendeley"                             # Reference manager
+cask "evernote"                             # Notetaking app
+cask "thunderbird"                          # Email client
+cask "gnucash"                              # Personal finances app
 cask "bettertouchtool"                      # Macros and gestures (PAID -license)
-cask "bitwarden"                            # Password manager of choice
 cask "bitbar"                               # Menu custom script display
 cask "borgbackup"                           # Incremental and Deduplication backup tool
 cask "caffeine"                             # Prevents the computer from sleeping
@@ -177,21 +175,16 @@ cask "etrecheckpro"                         # System maintenance
 cask "firefox"                              # Alternative web browser
 cask "flux"                                 # Changes temperature color based on time of day
 cask "gmvault"                              # To backup gmail accounts
-cask "google-chrome"                        # Google's web browser
-cask "google-chrome-canary"                 # Google's beta web browser
 cask "hammerspoon"                          # Desktop automation on macOS
-cask "chrome-remote-desktop-host"           # Remote control using Google credentials
 cask "iterm2"                               # Better than Terminal.app
 cask "jupyter-notebook-viewer"              # Simple app to view Jupyter notebooks
 cask "karabiner-elements"                   # Tool to remap keys like caps-lock
 cask "keybase"                              # Keybase macOS client
-cask "kitty"                                # Terminal emulator with GPU acceleration
 cask "logitech-control-center"              # Drivers for keyboard and mouse
 cask "logitech-options"                     # Drivers for keyboard and mouse
 cask "logitech-unifying"                    # Drivers for keyboard and mouse
 cask "mactex"                               # LateX and TeX
 cask "malwarebytes"                         # Remove antimalware
-cask "mkvtoolnix"                           # GUI for mkvtoolnix
 cask "onyx"                                 # Tweak tool for OS
 cask "paintbrush"                           # MS paint equivalent
 cask "plex"                                 # Plex Media Player
@@ -200,22 +193,11 @@ cask "selfcontrol"                          # Blacklisting websites
 cask "slack"                                # Slack client
 cask "skim"                                 # Better PDF tool with Sublime Text integration
 cask "spotify"                              # Music streaming
-cask "steam"                                # Gaming collection hub
 cask "sublime-text"                         # Multipurpose text editor
-cask "telegram"                             # Instant messaging with sync across devices
 cask "the-unarchiver"                       # To deflate and decompress files
-cask "transmission"                         # Torrent client
 cask "tunnelblick"                          # OpenVPN client
-cask "veracrypt"                            # Disk and disk image encryption
 cask "visual-studio-code"                   # Visual Studio Code editor
 cask "vlc"                                  # Video Player
-cask "xbox360-controller-driver-unofficial" # Drivers for XBOX 360 controller
-cask "yubico-yubikey-manager"               # Manager for yubikeys
-cask "yubico-authenticator"                 # TOTP authenticator based on yubikeys
-# PAID Casks
-cask "bartender"                            # Groups menu bar items (PAID)
-cask "daisydisk"                            # Handy disk space analyzer (PAID)
-cask "vmware-fusion"                        # Full fledged user friendly VM (PAID)
 
 # Quick Look plugins
 cask "qlcolorcode"
@@ -269,6 +251,6 @@ tap 'colindean/fonts-nonfree'
 cask "font-microsoft-office"
 
 ### Mac App Store Installs
-mas "Xcode", id: 497799835                          # Apple's developper tools
+#mas "Xcode", id: 497799835                          # Apple's developper tools
 
-mas "WireGuard", id: 1451685025                     # Wireguard macOS client
+#mas "WireGuard", id: 1451685025                     # Wireguard macOS client
