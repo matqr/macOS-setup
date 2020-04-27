@@ -61,6 +61,7 @@ CTRL + SHIFT + . -- Toogle hidden files in open/save dialogs
 * Show keyboard visor
 * Add Spanish ISO, Pinyin - Simplified 
 * Disable speech dictation
+* Remap caps lock to ^ (control)
 
 ### Printers and Scanners
 * TODO

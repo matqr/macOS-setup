@@ -2,7 +2,7 @@ App Settings
 ============
 
 
-## Thunderbird
+## Mail app 
 * Configure accounts
 
 ## iTerm
@@ -16,3 +16,4 @@ App Settings
 ## Other
 * Alfred-Powerpack (Buy license)
 * Microsoft_Office_2016 (Use educational license)
+* Lastpass

@@ -161,6 +161,7 @@ cask "authy"								# 2FA App
 cask "spectacle"                            # Window manager
 cask "blender"                              # Video editing open source software
 cask "franz"                                # Cross-platform messaging app
+cask "lastpass"                             # password manager
 cask "mendeley"                             # Reference manager
 cask "evernote"                             # Notetaking app
 cask "thunderbird"                          # Email client
