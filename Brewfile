@@ -167,6 +167,8 @@ cask "evernote"                             # Notetaking app
 cask "thunderbird"                          # Email client
 cask "gnucash"                              # Personal finances app
 cask "bettertouchtool"                      # Macros and gestures (PAID -license)
+cask "nordvpn"                              # VPN
+cask "notion"                               # productivity tool
 cask "bitbar"                               # Menu custom script display
 cask "borgbackup"                           # Incremental and Deduplication backup tool
 cask "caffeine"                             # Prevents the computer from sleeping
