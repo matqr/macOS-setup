@@ -35,21 +35,21 @@ cask "iina"                                 # Video player with nicer configs th
 cask "xquartz"                              # DEP: Inkscape dependency
 cask "inkscape"                             # Vector graphics
 cask "keycastr"                             # Keystroke visualizer
-cask "kodi"                                 # Media center for music, tvshows and movies
+#cask "kodi"                                 # Media center for music, tvshows and movies
 cask "macdown"                              # Simple markdown editor with live preview
 cask "meld"                                 # Diff/Merge tool
 cask "monitorcontrol"                       # Uses DDC/CI to setup monitor brightness/contrast
-cask "obs"                                  # Screen recording/streaming software
+#cask "obs"                                  # Screen recording/streaming software
 cask "openemu"                              # Emulator collection
-cask "pock"                                 # Dock in touchbar
-cask "postman"                              # Debugger for GET/POST requests
-cask "rescuetime"                           # Time tracking & productivity
-cask "sequel-pro"                           # SQL frontend
+#cask "pock"                                 # Dock in touchbar
+#cask "postman"                              # Debugger for GET/POST requests
+#cask "rescuetime"                           # Time tracking & productivity
+#cask "sequel-pro"                           # SQL frontend
 cask "skype"                                # Video calls
 cask "sourcetree"                           # Git visualization tool
 cask "sublime-merge"                        # Sublime merge tool
-cask "virtualbox"                           # Virtual machines
-cask "vagrant"                              # Automated VM management/deployment
+#cask "virtualbox"                           # Virtual machines
+#cask "vagrant"                              # Automated VM management/deployment
 cask "xld"                                  # Convert flac files
 
 ### Mac App Store Installs
@@ -87,9 +87,9 @@ cask "rstudio"
 brew "lua"
 
 # Docker
-brew "docker"                               # Docker Containers
-brew "docker-compose"
-brew "docker-swarm"
+#brew "docker"                               # Docker Containers
+#brew "docker-compose"
+#brew "docker-swarm"
 
 ### EXTRA NICETIES
 

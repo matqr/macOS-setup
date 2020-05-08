@@ -164,11 +164,11 @@ cask "franz"                                # Cross-platform messaging app
 cask "lastpass"                             # password manager
 cask "mendeley"                             # Reference manager
 cask "evernote"                             # Notetaking app
-cask "thunderbird"                          # Email client
+#cask "thunderbird"                          # Email client
 cask "gnucash"                              # Personal finances app
 cask "bettertouchtool"                      # Macros and gestures (PAID -license)
 cask "nordvpn"                              # VPN
-cask "notion"                               # productivity tool
+#cask "notion"                               # productivity tool
 cask "bitbar"                               # Menu custom script display
 cask "borgbackup"                           # Incremental and Deduplication backup tool
 cask "caffeine"                             # Prevents the computer from sleeping
@@ -177,28 +177,28 @@ cask "etcher"                               # Tool for flashing USB/SD/&c from .
 cask "etrecheckpro"                         # System maintenance
 cask "firefox"                              # Alternative web browser
 cask "flux"                                 # Changes temperature color based on time of day
-cask "gmvault"                              # To backup gmail accounts
-cask "hammerspoon"                          # Desktop automation on macOS
+#cask "gmvault"                              # To backup gmail accounts
+#cask "hammerspoon"                          # Desktop automation on macOS
 cask "iterm2"                               # Better than Terminal.app
 cask "jupyter-notebook-viewer"              # Simple app to view Jupyter notebooks
-cask "karabiner-elements"                   # Tool to remap keys like caps-lock
-cask "keybase"                              # Keybase macOS client
-cask "logitech-control-center"              # Drivers for keyboard and mouse
-cask "logitech-options"                     # Drivers for keyboard and mouse
-cask "logitech-unifying"                    # Drivers for keyboard and mouse
+#cask "karabiner-elements"                   # Tool to remap keys like caps-lock
+#cask "keybase"                              # Keybase macOS client
+#cask "logitech-control-center"              # Drivers for keyboard and mouse
+#cask "logitech-options"                     # Drivers for keyboard and mouse
+#cask "logitech-unifying"                    # Drivers for keyboard and mouse
 cask "mactex"                               # LateX and TeX
 cask "malwarebytes"                         # Remove antimalware
 cask "onyx"                                 # Tweak tool for OS
 cask "paintbrush"                           # MS paint equivalent
 cask "plex"                                 # Plex Media Player
 cask "scroll-reverser"                      # Tool to invert mousewheel scroll
-cask "selfcontrol"                          # Blacklisting websites
+#cask "selfcontrol"                          # Blacklisting websites
 cask "slack"                                # Slack client
 cask "skim"                                 # Better PDF tool with Sublime Text integration
 cask "spotify"                              # Music streaming
 cask "sublime-text"                         # Multipurpose text editor
 cask "the-unarchiver"                       # To deflate and decompress files
-cask "tunnelblick"                          # OpenVPN client
+#cask "tunnelblick"                          # OpenVPN client
 cask "visual-studio-code"                   # Visual Studio Code editor
 cask "vlc"                                  # Video Player
 
