@@ -39,11 +39,10 @@ CTRL + SHIFT + . -- Toogle hidden files in open/save dialogs
 ### Security and Privacy
 * Require password inmediately
 
-
 ### Mouse
 * Tracking speed 3rd notch from the right
 
-### Trackpad TODO:
+### Trackpad 
 * Swipe between pages with 3 fingers
 * Swipe between full-screen apps with 4 fingers
 * Uncheck notification center
@@ -63,9 +62,6 @@ CTRL + SHIFT + . -- Toogle hidden files in open/save dialogs
 * Disable speech dictation
 * Remap caps lock to ^ (control)
 
-### Printers and Scanners
-* TODO
-
 ### Sound
 * Sosumi as error sound (default: funk)
 * Show sound in menu bar
@@ -81,6 +77,14 @@ CTRL + SHIFT + . -- Toogle hidden files in open/save dialogs
 
 Third party apps
 ================
+
+## Alfred
+* Update workflows [repo](https://github.com/derimagia/awesome-alfred-workflows)
+    * spotify mini player
+    * github
+    * terminal finder
+* Use settings from Dropbox
+* Enable clipboard
 
 ## Firefox
 * Login with Firefox Sycnc
