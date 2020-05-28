@@ -94,6 +94,7 @@ Third party apps
 Set iTerm to use dot file config and save to it item
 Change icon with ic ns in dotfiles
 Save .scpt as .app and it in menubar
+Run `npm install -g iterm2-tab-set` to be able to rename the tabs
 
 ## BetterTouchTool
 * Import Preferences from dotfiles
