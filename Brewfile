@@ -168,6 +168,7 @@ cask "evernote"                             # Notetaking app
 cask "gnucash"                              # Personal finances app
 cask "bettertouchtool"                      # Macros and gestures (PAID -license)
 cask "nordvpn"                              # VPN
+cask "typora"                               # markdown editor 
 #cask "notion"                               # productivity tool
 cask "bitbar"                               # Menu custom script display
 cask "borgbackup"                           # Incremental and Deduplication backup tool
