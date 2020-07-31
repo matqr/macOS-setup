@@ -181,6 +181,7 @@ cask "flux"                                 # Changes temperature color based on
 #cask "gmvault"                              # To backup gmail accounts
 #cask "hammerspoon"                          # Desktop automation on macOS
 cask "iterm2"                               # Better than Terminal.app
+cask "alacritty"                            # Better than Terminal.app and more lightweight and fastr than iterm2
 cask "jupyter-notebook-viewer"              # Simple app to view Jupyter notebooks
 #cask "karabiner-elements"                   # Tool to remap keys like caps-lock
 #cask "keybase"                              # Keybase macOS client
