@@ -78,27 +78,12 @@ CTRL + SHIFT + . -- Toogle hidden files in open/save dialogs
 Third party apps
 ================
 
-## Alfred
-* Update workflows [repo](https://github.com/derimagia/awesome-alfred-workflows)
-    * spotify mini player
-    * github
-    * terminal finder
-* Use settings from Dropbox
-* Enable clipboard
-
 ## Firefox
 * Login with Firefox Sycnc
 * Login into extensions
 
-## iTerm
-Set iTerm to use dot file config and save to it item
-Change icon with ic ns in dotfiles
-Save .scpt as .app and it in menubar
-Run `npm install -g iterm2-tab-set` to be able to rename the tabs
-
-## BetterTouchTool
-* Import Preferences from dotfiles
-* Add license
+## Alacritty 
+Install via `dotfiles`
 
 ## Dropbox
 * Login
@@ -106,10 +91,7 @@ Run `npm install -g iterm2-tab-set` to be able to rename the tabs
  
 ## Google Drive
 * Login
-
-## Better Touch Tool
-Enable Accesibility
-import license
+* For Google Drive File Stream use PUCP account
 
 ## Flux
 * Configure
@@ -122,19 +104,18 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 mkdir -p ~/.vim/colors/
 curl "https://raw.githubusercontent.com/tomasr/molokai/master/colors/molokai.vim" -o ~/.vim/colors/molokai.vim
 
-## Alfred
-* Update workflows https://github.com/derimagia/awesome-alfred-workflows
-* Enable Clipboard
-* Use settings from Dropbox
-* Setup spotifu miniplayer `http://alfred-spotify-mini-player.com/`
+## Alfred 
+* Setup spotify miniplayer 
+* Setup github workflow
+* Setup terminal-finder
+* Setup volumne-control
 * Enable Accesibility text expansion
 
 ## Spotify
 * Login
 
 ## License
-* Adobe Illustrator/Photoshop/InDesign
-* Alfred
+* Alfred (located in Google Drive)
 * Microsoft Office
 
 ## Sublime Text

@@ -62,7 +62,7 @@ brew "pyenv"                                # Python version management
 brew "pyenv-virtualenv"                     # For managing virtual envs
 brew "pyenv-ccache"                         # Make Python build faster
 brew "pyenv-which-ext"                      # Integrate pyenv and system commands (looks up commands in other python versions)
-brew "pipenv"                               # TODO: use pipenv instead of pyenv
+brew "pipenv"                               
 
 brew "ruby"
 brew "rbenv"
