@@ -74,6 +74,7 @@ brew "perl"
 # Widely used CLI editors
 brew "vim", args: ['override-system-vi', 'with-python3']
 brew "neovim"
+brew install neovim-nightly # for telescope
 
 # Regular emacs window does not behave properly. Use this port instead
 tap "railwaycat/emacsmacport"
