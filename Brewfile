@@ -62,7 +62,7 @@ brew "pyenv"                                # Python version management
 brew "pyenv-virtualenv"                     # For managing virtual envs
 brew "pyenv-ccache"                         # Make Python build faster
 brew "pyenv-which-ext"                      # Integrate pyenv and system commands (looks up commands in other python versions)
-brew "pipenv"                               
+brew "pipenv"
 
 brew "ruby"
 brew "rbenv"
@@ -156,20 +156,19 @@ tap "caskroom/cask"
 tap "caskroom/versions"
 tap "caskroom/drivers"
 
+cask "keepassxc"                            # Password manager
 cask "alfred"                               # Improved Spotlight
 cask "appcleaner"                           # Removes plist along with the app
 cask "authy"								# 2FA App
 cask "spectacle"                            # Window manager
 cask "blender"                              # Video editing open source software
 cask "franz"                                # Cross-platform messaging app
-cask "lastpass"                             # password manager
 cask "mendeley"                             # Reference manager
 cask "evernote"                             # Notetaking app
 #cask "thunderbird"                          # Email client
 cask "gnucash"                              # Personal finances app
-cask "bettertouchtool"                      # Macros and gestures (PAID -license)
 cask "nordvpn"                              # VPN
-#cask "typora"                               # markdown editor 
+#cask "typora"                               # markdown editor
 cask "notion"                               # productivity tool
 cask "bitbar"                               # Menu custom script display
 cask "borgbackup"                           # Incremental and Deduplication backup tool
