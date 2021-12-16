@@ -1,4 +1,5 @@
-REFERENCE REPOS & TODO
+REFERENCE REPOS
+---
 
 # Bash Script setup
 https://github.com/j9ac9k/macOS_setup

@@ -109,6 +109,7 @@ curl "https://raw.githubusercontent.com/tomasr/molokai/master/colors/molokai.vim
 * Setup terminal-finder
 * Setup volumne-control
 * Enable Accesibility text expansion
+* Load license
 
 ## Spotify
 * Login
