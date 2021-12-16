@@ -1,29 +1,26 @@
 # Matias Quintana (adapted from JJGO's file https://github.com/JJGO/macOS-setup)
 # Brewfile
 
-tap 'homebrew/science'
-
 cask_args appdir: '/Applications'
 
 ### UNIX DEFAULTS
-tap 'homebrew/dupes'
 brew "coreutils"
 brew "binutils"
 brew "diffutils"
-brew "ed", args: ['with-default-names']
-brew "findutils", args: ['with-default-names']
+brew "ed"
+brew "findutils"
 brew "gawk"
-brew "gnu-indent", args: ['with-default-names']
-brew "gnu-sed" , args: ['with-default-names']
-brew "gnu-tar", args: ['with-default-names']
-brew "gnu-which", args: ['with-default-names']
+brew "gnu-indent"
+brew "gnu-sed"
+brew "gnu-tar"
+brew "gnu-which"
 brew "gnutls"
 brew "gnupg"
-brew "grep", args: ['with-default-names']
+brew "grep"
 brew "gzip"
-brew "less", args: ['with-pcre']
+brew "less"
 brew "lsof"
-brew "make", args: ['with-default-names']
+brew "make"
 brew "nano"
 brew "openssh"
 brew "pstree"
@@ -34,7 +31,6 @@ brew "screen"
 brew "stow"                                 # Symlink creator, useful for dotfiles
 brew "tree"                                 # Recursive display
 brew "watch"                                # Execute and monitor every X seconds
-brew "wdiff", args: ['with-gettext']
 brew "wget"
 
 ### SHELLS, GIT, PYTHON and RUBY
@@ -50,10 +46,8 @@ brew "fish"                                 # Friendly interactive sheell. Good 
 
 ### WINE
 cask "xquartz"                              # DEP: WineHQ dependency
-brew "wine"                                 # For Windows software
 brew "winetricks"                           # Extra wine utils
 cask "wine-stable"                          # GUI Wine interface
-cask "wineskin-winery"                      # Wine wrapper
 cask "playonmac"                            # Wine wrapper with nice UI
 
 ### PROGRAMMING LANGUAGES
@@ -72,19 +66,14 @@ brew "perl"
 
 ### EDITORS
 # Widely used CLI editors
-brew "vim", args: ['override-system-vi', 'with-python3']
+brew "vim"
 brew "neovim"
 brew install neovim-nightly # for telescope
-
-# Regular emacs window does not behave properly. Use this port instead
-tap "railwaycat/emacsmacport"
-brew "emacs-mac"
-cask "emacs-mac"
 
 ### CLI UTILITIES
 brew "ack"                                  # Better grep
 brew "atool"                                # A script for managing file archives (aunpack)
-brew "aspell", args: ['with-lang-es']       # Spell checker
+brew "aspell"                               # Spell checker
 brew "autossh"                              # Persistent SSH port forwarding
 brew "bat"                                  # Improved cat with highlight and paging
 brew "bitwarden-cli"                        # Bitwarden CLI utility
@@ -99,17 +88,13 @@ brew "fping"                                # More usable ping
 brew "fzf"                                  # Fuzzy finder
 brew "fzy"                                  # Another Fuzzy finder
 brew "graphviz"                             # Graph visualization software
-brew "gocryptfs"                            # FUSE encrypted FS
-brew "hardlink-osx"                         # Hard link functionality on macOS
 brew "htop"                                 # Display system usage
-brew "imagemagick", args: ['with-librsvg', 'with-fontconfig'] # Good image editing software
 brew "lnav"                                 # Log viewer
 brew "lftp"                                 # Terminal FTP client
 brew "mas"                                  # Install software from app store
 brew "mackup"                               # Configuration Syncer
 brew "cmark"                                # Mkvtoolnix dependency
 brew "ctags"                                # ctags binaries are required for vim
-brew "mkvtoolnix", args: ['with-qt5']       # Mkv tools
 brew "media-info"                           # Media info for videos
 brew "minicom"                              # Serial port communication
 brew "moreutils"                            # Some extra niceties including parallel
@@ -132,7 +117,7 @@ brew "the_silver_searcher"                  # Search similar to ack but faster
 cask "osxfuse"                              # Dependency of sshfs
 brew "sshfs"                                # TO mount disks over SSH
 brew "doxygen"                              # tmux dependency
-brew "tmux", args: ['with-utf8proc']        # Terminal multiplexer and server
+brew "tmux"                                 # Terminal multiplexer and server
 brew "trash"                                # To use OS trash instead of rm forever
 brew "unison"                               # Sync both ways folders
 brew "write-good"                           # CLI tool for technical writing
@@ -152,10 +137,6 @@ brew "pipes-sh"
 
 ##### CASKS #####
 
-tap "caskroom/cask"
-tap "caskroom/versions"
-tap "caskroom/drivers"
-
 cask "keepassxc"                            # Password manager
 cask "alfred"                               # Improved Spotlight
 cask "appcleaner"                           # Removes plist along with the app
@@ -164,43 +145,28 @@ cask "spectacle"                            # Window manager
 cask "blender"                              # Video editing open source software
 cask "franz"                                # Cross-platform messaging app
 cask "mendeley"                             # Reference manager
-cask "evernote"                             # Notetaking app
-#cask "thunderbird"                          # Email client
 cask "gnucash"                              # Personal finances app
 cask "nordvpn"                              # VPN
-#cask "typora"                               # markdown editor
 cask "notion"                               # productivity tool
 cask "bitbar"                               # Menu custom script display
-cask "borgbackup"                           # Incremental and Deduplication backup tool
 cask "caffeine"                             # Prevents the computer from sleeping
 cask "dropbox"                              # Cloud storage with syncing
-cask "etcher"                               # Tool for flashing USB/SD/&c from .img/.iso
 cask "etrecheckpro"                         # System maintenance
 cask "firefox"                              # Alternative web browser
 cask "flux"                                 # Changes temperature color based on time of day
-#cask "gmvault"                              # To backup gmail accounts
-#cask "hammerspoon"                          # Desktop automation on macOS
-cask "iterm2"                               # Better than Terminal.app
 cask "alacritty"                            # Better than Terminal.app and more lightweight and fastr than iterm2
 cask "jupyter-notebook-viewer"              # Simple app to view Jupyter notebooks
-#cask "karabiner-elements"                   # Tool to remap keys like caps-lock
-#cask "keybase"                              # Keybase macOS client
-#cask "logitech-control-center"              # Drivers for keyboard and mouse
-#cask "logitech-options"                     # Drivers for keyboard and mouse
-#cask "logitech-unifying"                    # Drivers for keyboard and mouse
 cask "mactex"                               # LateX and TeX
 cask "malwarebytes"                         # Remove antimalware
 cask "onyx"                                 # Tweak tool for OS
 cask "paintbrush"                           # MS paint equivalent
 cask "plex"                                 # Plex Media Player
 cask "scroll-reverser"                      # Tool to invert mousewheel scroll
-#cask "selfcontrol"                          # Blacklisting websites
 cask "slack"                                # Slack client
 cask "skim"                                 # Better PDF tool with Sublime Text integration
 cask "spotify"                              # Music streaming
 cask "sublime-text"                         # Multipurpose text editor
 cask "the-unarchiver"                       # To deflate and decompress files
-#cask "tunnelblick"                          # OpenVPN client
 cask "visual-studio-code"                   # Visual Studio Code editor
 cask "vlc"                                  # Video Player
 
@@ -248,7 +214,7 @@ cask "font-times-new-roman"
 cask "font-fantasque-sans-mono"
 cask "font-victor-mono"
 cask "font-cascadia"
-  ## Nerd fonts
+## Nerd fonts
 cask "font-meslo-nerd-font-mono"
 
 

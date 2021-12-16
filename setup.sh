@@ -62,12 +62,6 @@ bundle install
 # Launch Agents
 ./launch_setup.sh
 
-# Install rust
-curl https://sh.rustup.rs -sSf | sh
-
-# Run post-processing script
-./post-process.sh
-
 # Extra dependencies and applications [Optional]
 while true; do
     read -p "Do you want to install the extra utils/apps?[y/n]" yn
