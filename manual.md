@@ -1,4 +1,5 @@
 # Pre-Install Instructions TODO
+===
 
 1. Make sure that
 	- format: APFS
@@ -9,11 +10,7 @@
 5. Enable System extensions during installation (one time thing)
 6. Enable sleeping display (10 min) after big installation
 
-Manual install
-==============
-
-CTRL + SHIFT + . -- Toogle hidden files in open/save dialogs
-
+# Manual install
 
 ## System Preferences
 
@@ -56,7 +53,6 @@ CTRL + SHIFT + . -- Toogle hidden files in open/save dialogs
 * Check turn display off after 10 min
 
 ### Keyboard
-* Show keyboard visor
 * Add Spanish ISO, Pinyin - Simplified
 * Disable speech dictation
 
@@ -71,57 +67,35 @@ CTRL + SHIFT + . -- Toogle hidden files in open/save dialogs
 ### Touch ID
 * Add more fingers
 
-### Finder Extensions
-* Disable all - check for [adobe](https://apple.stackexchange.com/questions/236577/how-to-disable-adobe-core-sync-app-on-os-x-from-being-launched-automatically)
 
-Third party apps
-================
+## Finish installing third party apps
+*  Alacritty
+	* Install via `dotfiles`
+	* Install Hack font from here https://github.com/source-foundry/Hack
+* Android Studio
+* DaVinci Resolve
 
-## Firefox
-* Login with Firefox Sycnc
-* Login into extensions
-
-## Alacritty
-Install via `dotfiles`
-
-## Dropbox
-* Login
-* Disable all notifications
-
-## Google Drive
-* Login
-* For Google Drive File Stream use PUCP account
-
-## Flux
-* Configure
-
-## Vim
-<!-- Install bundle -->
-git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-
-<!-- Install colorscheme -->
-mkdir -p ~/.vim/colors/
-curl "https://raw.githubusercontent.com/tomasr/molokai/master/colors/molokai.vim" -o ~/.vim/colors/molokai.vim
-
-## Alfred
-* Setup spotify miniplayer
-* Setup github workflow
-* Setup terminal-finder
-* Setup volumne-control
-* Enable Accesibility text expansion
-* Load license
-
-## Spotify
-* Login
-
-## License
-* Alfred (located in Google Drive)
-* Microsoft Office
-
-## Sublime Text
-* Clone Settings from Repo
-* Check linter is working
-* Check latextools is working + configure skim
+## Logging into third party apps and/or set them up
+* Firefox
+* Dropbox
+	* Disable all notifications
+* Google Drive
+	* Login in all accounts (Personal, UTR, PUCP, BRSNet, BUDSLab)
+* Flux
+* Alfred
+	* Setup spotify miniplayer
+	* Setup github workflow
+	* Setup terminal-finder
+	* Setup volumne-control
+	* Enable Accesibility text expansion
+	* Load license (located in Google Drive)
+* Spotify
+* KeepPass XC
+* Slack
+* Notion
+* Mendeley
+* Gnucash
+* MS Ofice
 
 ## Reference
 https://github.com/herrbischoff/awesome-osx-command-line

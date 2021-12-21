@@ -5,7 +5,7 @@ set -o pipefail # Exit on pipe error
 set -x 			# Enable verbosity
 
 # Install oh-my-fish
-curl -L https://github.com/oh-my-fish/oh-my-fish/raw/master/bin/install | fish
+#curl -L https://github.com/oh-my-fish/oh-my-fish/raw/master/bin/install | fish
 
 # Install oh-my-fish agnoster package
 omf install agnoster
@@ -17,3 +17,6 @@ rm -rf ~/Git/powerline-fonts
 
 # Add shell to /etc/shells
 command -v fish | sudo tee -a /etc/shells
+
+# Change default shell to fish
+chsh -s /usr/local/bin/fish

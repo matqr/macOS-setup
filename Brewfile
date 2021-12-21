@@ -67,8 +67,7 @@ brew "perl"
 ### EDITORS
 # Widely used CLI editors
 brew "vim"
-brew "neovim"
-brew install neovim-nightly # for telescope
+brew install neovim --HEAD
 
 ### CLI UTILITIES
 brew "ack"                                  # Better grep
@@ -177,7 +176,6 @@ cask "qlmarkdown"
 cask "quicklook-json"
 cask "qlprettypatch"
 cask "quicklook-csv"
-cask "hetimazipql"
 cask "qlimagesize"
 cask "webpquicklook"
 cask "suspicious-package"
@@ -186,40 +184,6 @@ cask "jupyter-notebook-ql"
 cask "quicknfo"
 cask "qlmobi"
 cask "qladdict"
-
-# Fonts
-brew "font-fontawesome"
-tap 'caskroom/fonts'
-cask "font-anonymous-pro"
-cask "font-charter"
-cask "font-cooper-hewitt"
-cask "font-dejavu-sans"
-cask "font-comic-neue"
-cask "font-computer-modern"
-cask "font-ibm-plex"
-cask "font-fira-code"
-cask "font-fira-mono"
-cask "font-fira-sans"
-cask "font-hack"
-cask "font-hasklig"
-cask "font-inconsolata"
-cask "font-iosevka"
-cask "font-menlo-for-powerline"
-cask "font-monoid"
-cask "font-source-code-pro"
-cask "font-source-sans-pro"
-cask "font-source-serif-pro"
-cask "font-terminus"
-cask "font-times-new-roman"
-cask "font-fantasque-sans-mono"
-cask "font-victor-mono"
-cask "font-cascadia"
-## Nerd fonts
-cask "font-meslo-nerd-font-mono"
-
-
-tap 'colindean/fonts-nonfree'
-cask "font-microsoft-office"
 
 ### Mac App Store Installs
 #mas "Xcode", id: 497799835                          # Apple's developper tools
