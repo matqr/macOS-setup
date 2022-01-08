@@ -6,5 +6,5 @@ The repository contains the files I use to configure a new installation of OS X/
 Most of the information was obtained through one or more sources in `reference.md`
 
 # Installation
-* Go over `manual.md`
-* Run `setup.sh` first
+* Go over `manual.md` first
+* Run `setup.sh`

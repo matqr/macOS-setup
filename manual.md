@@ -1,4 +1,4 @@
-# Pre-Install Instructions TODO
+# Pre-Install Instructions
 ===
 
 1. Make sure that
