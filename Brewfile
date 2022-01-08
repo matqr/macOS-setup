@@ -168,6 +168,7 @@ cask "sublime-text"                         # Multipurpose text editor
 cask "the-unarchiver"                       # To deflate and decompress files
 cask "visual-studio-code"                   # Visual Studio Code editor
 cask "vlc"                                  # Video Player
+cask "font-hack-nerd-font"                  # Fonts
 
 # Quick Look plugins
 cask "qlcolorcode"
