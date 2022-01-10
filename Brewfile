@@ -69,6 +69,11 @@ brew "perl"
 brew "vim"
 brew install neovim --HEAD
 
+
+# linters
+brew "black"
+brew "flake8"
+
 ### CLI UTILITIES
 brew "ack"                                  # Better grep
 brew "atool"                                # A script for managing file archives (aunpack)
@@ -168,7 +173,7 @@ cask "sublime-text"                         # Multipurpose text editor
 cask "the-unarchiver"                       # To deflate and decompress files
 cask "visual-studio-code"                   # Visual Studio Code editor
 cask "vlc"                                  # Video Player
-cask "font-hack-nerd-font"                  # Fonts
+cask "font-hack-nerd-font"
 
 # Quick Look plugins
 cask "qlcolorcode"
