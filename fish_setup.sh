@@ -8,7 +8,7 @@ set -x 			# Enable verbosity
 #curl -L https://github.com/oh-my-fish/oh-my-fish/raw/master/bin/install | fish
 
 # Install oh-my-fish agnoster package
-omf install agnoster
+#omf install agnoster
 
 # Install powerline fonts
 git clone https://github.com/powerline/fonts.git ~/Git/powerline-fonts
