@@ -1,9 +1,8 @@
 # Pre-Install Instructions
-===
 
 1. Make sure that
 	- format: APFS
-	- user: maqr
+	- user: mquintana
 2. Sign in Apple ID
 3. Clone Git Repo http://github.com/matqr/macos-setup, it will ask to install git first
 4. Disable sleeping display before running script
@@ -76,11 +75,11 @@
 * DaVinci Resolve
 
 ## Logging into third party apps and/or set them up
-* Firefox
+* Brave
 * Dropbox
 	* Disable all notifications
 * Google Drive
-	* Login in all accounts (Personal, UTR, PUCP, BRSNet, BUDSLab)
+	* Login in all accounts (Personal, etc)
 * Flux
 * Alfred
 	* Setup spotify miniplayer
@@ -92,9 +91,8 @@
 * Spotify
 * KeepPass XC
 * Slack
+* Obsidian
 * Notion
-* Mendeley
-* Gnucash
 * MS Ofice
 
 ## Reference
