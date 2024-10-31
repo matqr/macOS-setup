@@ -31,7 +31,9 @@ chmod +x *.sh
 echo 'export PATH="/usr/local/bin:$PATH"' >> ~/.bash_profile
 
 # Install Homebrew
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+# ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" # intel based
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" # apple sillicon
+export PATH=/opt/homebrew/bin:$PATH
 brew update
 
 # Allow third party software
