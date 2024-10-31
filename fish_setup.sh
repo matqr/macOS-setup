@@ -10,6 +10,9 @@ set -x 			# Enable verbosity
 # Install oh-my-fish agnoster package
 #omf install agnoster
 
+# Install fish
+arch -arm64 brew install fish
+
 # Install powerline fonts
 git clone https://github.com/powerline/fonts.git ~/Git/powerline-fonts
 ~/Git/powerline-fonts/./install.sh
@@ -19,4 +22,4 @@ rm -rf ~/Git/powerline-fonts
 command -v fish | sudo tee -a /etc/shells
 
 # Change default shell to fish
-chsh -s /usr/local/bin/fish
+chsh -s /opt/homebrew/bin/fish
