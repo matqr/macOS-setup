@@ -48,6 +48,8 @@ pyenv install -s $LATEST_PYTHON3
 
 # Install full anaconda and packages
 # TODO: make sure to install miniforge conda, for arm macs
+# https://github.com/conda-forge/miniforge/releases
+
 #LATEST_ANACONDA=$(pyenv install -l | grep -oP '^\s+(anaconda.*)' | sed 's/ //g' | tail -n 1)
 #CFLAGS="-I$(brew --prefix openssl)/include" \
 #LDFLAGS="-L$(brew --prefix openssl)/lib" \
