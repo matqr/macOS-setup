@@ -47,11 +47,12 @@ LDFLAGS="-L$(brew --prefix openssl)/lib" \
 pyenv install -s $LATEST_PYTHON3
 
 # Install full anaconda and packages
-LATEST_ANACONDA=$(pyenv install -l | grep -oP '^\s+(anaconda.*)' | sed 's/ //g' | tail -n 1)
-CFLAGS="-I$(brew --prefix openssl)/include" \
-LDFLAGS="-L$(brew --prefix openssl)/lib" \
-pyenv install -s $LATEST_ANACONDA
-pyenv global $LATEST_ANACONDA
+# TODO: make sure to install miniforge conda, for arm macs
+#LATEST_ANACONDA=$(pyenv install -l | grep -oP '^\s+(anaconda.*)' | sed 's/ //g' | tail -n 1)
+#CFLAGS="-I$(brew --prefix openssl)/include" \
+#LDFLAGS="-L$(brew --prefix openssl)/lib" \
+#pyenv install -s $LATEST_ANACONDA
+#pyenv global $LATEST_ANACONDA
 
 # Install python packages
 if [ -f pip.req ]; then
