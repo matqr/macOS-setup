@@ -2,7 +2,7 @@
 
 1. Make sure that
 	- format: APFS
-	- user: mquintana
+	- user: matias
 2. Sign in Apple ID
 3. Clone Git Repo http://github.com/matqr/macos-setup, it will ask to install git first
 4. Disable sleeping display before running script
