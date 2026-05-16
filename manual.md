@@ -15,13 +15,7 @@
 
 ### General
 * Use dark menu bar and dock
-
-### Wallpaper and Screensaver
-* Use wallpapers from Google Drive (PUCP account)
-
-### Mission Control
-* Uncheck: Automatically rearrange Spaces based on most recent use
-
+  
 ### Language and Region
 * Language English
 * Region: Singapore
@@ -33,16 +27,12 @@
 ### Security and Privacy
 * Require password inmediately
 
-### Mouse
-* Tracking speed 4th notch from the left
-
 ### Trackpad
 * Uncheck Swipe between pages
 * Swipe between full-screen apps with 3 fingers
 * Uncheck notification center
 * Mission control with 3 fingers
 * App expose with 3 fingers
-* Uncheck launchpad
 * Show desktop with thumb and 3 fingers
 
 ### Notifications
@@ -52,20 +42,14 @@
 * Check turn display off after 10 min
 
 ### Keyboard
-* Add Spanish ISO, Pinyin - Simplified
-* Disable speech dictation
+* Add Spanish LA, Pinyin - Simplified
 
 ### Sound
-* Sosumi as error sound (default: funk)
-* Show sound in menu bar
 * Uncheck Play user interface sound effect
+* Uncheck Play sound on startup
 
 ### Internet Accounts
 * Google: Mail, Contacts, Calendar
-
-### Touch ID
-* Add more fingers
-
 
 ## Finish installing third party apps
 *  Alacritty
@@ -76,8 +60,6 @@
 
 ## Logging into third party apps and/or set them up
 * Brave
-* Dropbox
-	* Disable all notifications
 * Google Drive
 	* Login in all accounts (Personal, etc)
 * Flux
@@ -92,7 +74,6 @@
 * KeepPass XC
 * Slack
 * Obsidian
-* Notion
 * MS Ofice
 
 ## Reference
